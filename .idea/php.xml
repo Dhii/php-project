@@ -72,7 +72,7 @@
       </interpreter>
       <interpreter id="ba314a65-6074-40c9-8112-007ea3db0a5f" name="7.2 (test)" home="docker-compose://DATA" debugger_id="php.debugger.XDebug" debugger_extension="/usr/local/lib/php/extensions/no-debug-non-zts-20170718/xdebug.so">
         <configuration_options>
-          <configuration_option name="xdebug.remote_host" value="192.168.1.79" />
+          <configuration_option name="xdebug.remote_host" value="host.docker.internal" />
         </configuration_options>
         <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_COMPOSE_SERVICE_NAME="test" DOCKER_REMOTE_PROJECT_PATH="/opt/project">
           <type_data command="RUN" />
