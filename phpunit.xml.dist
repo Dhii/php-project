@@ -8,11 +8,8 @@
         <ini name="display_startup_errors" value="1" />
     </php>
     <testsuites>
-        <testsuite name="unit">
-            <directory>./tests/unit/</directory>
-        </testsuite>
         <testsuite name="functional">
-            <directory>./tests/functional/</directory>
+            <directory>tests/functional</directory>
         </testsuite>
     </testsuites>
     <filter>
