@@ -12,9 +12,11 @@ services:
     container_name: "${PROJECT_NAME}_build"
     working_dir: ${BUILD_ROOT_PATH}
     volumes:
-    -  ${BASE_PATH}:${BUILD_ROOT_PATH}
+      -  ${BASE_PATH}:${BUILD_ROOT_PATH}
 
   test:
+    extra_hosts:
+      - "host.docker.internal:${HOST_IP_ADDRESS}"
     build:
       context: ./
       dockerfile: docker/Dockerfile
