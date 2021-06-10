@@ -1,0 +1,37 @@
+{
+  "name": "dhii/php-project",
+  "description": "A PHP starter to ease project creation",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anton Ukhanev",
+      "email": "xedin.unknown@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2 | ^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0 | ^9.0",
+    "vimeo/psalm": "^4.0",
+    "webmozart/path-util": "^2.3@stable",
+    "slevomat/coding-standard": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Me\\Library\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Me\\Library\\Test\\Func\\": "tests/functional"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-initial": "0.1.x-dev"
+    }
+  }
+}
