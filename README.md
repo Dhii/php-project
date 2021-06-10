@@ -113,7 +113,8 @@ allowing inspection of code.
     docker-compose run --rm test vendor/bin/psalm
     ```
   
-  Will also be run automatically on CI.
+    * Will also be run automatically on CI.
+    * PHPStorm integration config included.
   
 - **PHPCS**
 
@@ -124,9 +125,9 @@ allowing inspection of code.
     docker-compose run --rm test vendor/bin/phpcbf
     ```
   
-    By default, uses [PSR-12][] and some rules from the [Slevomat Coding Standard][].
-    
-    Will also be run automatically on CI.
+    * By default, uses [PSR-12][] and some rules from the [Slevomat Coding Standard][].
+    * Will also be run automatically on CI.
+    * PHPStorm integration config included.
 
         
 [Docker Machine]: https://github.com/docker/machine
