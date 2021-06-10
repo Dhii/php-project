@@ -56,7 +56,7 @@ Use Composer to bootstrap your project.
             the [`php`][] image.
         * `PHP_TEST_VERSION`* - The version of PHP, on which the plugin will be _run_. This should
             correspond to the maximal PHP requirement of your plugin. Used to determine the tag of
-            the [`wordpress`][] image.
+            the [`php`][] image.
             
     - `composer.json`:
         * `name` - Name of your package.
