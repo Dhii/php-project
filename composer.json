@@ -28,10 +28,5 @@
     "psr-4": {
       "Me\\Library\\Test\\Func\\": "tests/functional"
     }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-initial": "0.1.x-dev"
-    }
   }
 }
