@@ -36,4 +36,4 @@ FROM build as vendor-dev
 ARG BUILD_ROOT_PATH
 
 WORKDIR ${BUILD_ROOT_PATH}
-RUN composer install
+RUN COMPOSER_DISCARD_CHANGES=true composer install
