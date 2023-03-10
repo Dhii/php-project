@@ -9,9 +9,7 @@ ARG BUILD_ROOT_PATH
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 RUN apt-get update
 RUN apt-get install -y zip unzip curl git
-RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-RUN php composer-setup.php --install-dir=/usr/bin --filename=composer
-RUN php -r "unlink('composer-setup.php');"
+COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 
 WORKDIR ${BUILD_ROOT_PATH}
 COPY . ./
