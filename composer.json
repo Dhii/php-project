@@ -28,5 +28,10 @@
     "psr-4": {
       "Me\\Library\\Test\\Func\\": "tests/functional"
     }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
   }
 }
