@@ -1,4 +1,6 @@
 # Dhii - PHP Project
+[![Continuous Integration](https://github.com/dhii/php-project/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/dhii/php-project/actions/workflows/continuous-integration.yml)
+
 A PHP starter to ease project creation
 
 ## Details
